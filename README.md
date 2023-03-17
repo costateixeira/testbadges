@@ -4,7 +4,6 @@ Empty IG
 <!--/badges-->
 
 This is an empty IG
-![Custom Shield](https://img.shields.io/badge/Errors-$(curl -s https://raw.githubusercontent.com/costateixeira/testbadges/gh-pages/qa.json | jq -r .errs)-red)
 
 <br> </br>
 ###
