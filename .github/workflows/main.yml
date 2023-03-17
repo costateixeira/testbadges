@@ -21,3 +21,5 @@ jobs:
   # This workflow contains a single job called "build"
   call_build: 
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@ft-badges
+  update_readme: 
+    uses: costateixeira/ig-badges/.github/workflows/add_badges.yaml@main
