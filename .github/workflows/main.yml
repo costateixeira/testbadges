@@ -22,4 +22,5 @@ jobs:
   call_build: 
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@ft-badges
   update_readme: 
+    needs: call_build  
     uses: costateixeira/ig-badges/.github/workflows/add_badges.yaml@main
